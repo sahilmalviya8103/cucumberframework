@@ -27,6 +27,7 @@ public class basesteps extends PageObjectManager {
     public static Properties prop;
     public static Map<String, Map<String,String>> dt;
     public static String TCName;
+    public int a = 10;
 
 
 
