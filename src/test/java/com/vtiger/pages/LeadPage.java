@@ -14,6 +14,7 @@ public class LeadPage extends CommonActions {
         super(driver);
         this.driver = driver;
         PageFactory.initElements(driver,this);
+        System.out.println("helo");
     }
 
 
