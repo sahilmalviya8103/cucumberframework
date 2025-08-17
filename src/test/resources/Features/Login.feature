@@ -4,7 +4,7 @@ Feature: login
 Background:
   Given user should be on login page
 
-  @sanity @Krishna
+  @sanity @Krishna @raj
 Scenario: valid_login_TC01
 When user enters valid userid
 And user enters valid password
@@ -12,7 +12,7 @@ And user click on login button
 Then user should be navigated to home page
 And user can see the logout link on home page
 
-@smoke
+@smoke @modi
 Scenario: Invalid_login_TC02
 When user enters invalid userid
 And user enters invalid password
